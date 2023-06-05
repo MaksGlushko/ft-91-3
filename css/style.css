@@ -113,6 +113,8 @@ letter-spacing: 0.02em;
 color: var(--main-text-color);
 width: 153px;
 height: 24px;
+padding: 24px 0;
+gap: 40px;
 }
 .header-soc-item {
     text-decoration: none;
@@ -179,12 +181,18 @@ max-width: 496px;
     background-color: #404BBF;
 }
 /* --------------BENEFISTS-------------- */
+.benefists-list {
+    display: flex;
+    padding: 120px 0;
+    gap: 24px;
+}
 .benefists-subtitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.20;
 letter-spacing: 0.02em;
 color: var(--title-color);
+margin-bottom: 8px;
 }
 .benefists-item-text {
 font-weight: 400;
