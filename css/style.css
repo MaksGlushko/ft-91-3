@@ -365,8 +365,6 @@ letter-spacing: 0.04em;
 color: var(--color-two);
 background-color: var(--second-text-color);
 border: 1px solid #e7e9fc;
-border-radius: 4px;
-padding: 12px 24px;
 
 
 }
@@ -447,10 +445,24 @@ color: var(--main-text-color);
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
 }
-
-
+.main-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+.portfolio-img-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+    gap: 24px;
+}
+.portfolio-advantages {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+} 
 
 
 
