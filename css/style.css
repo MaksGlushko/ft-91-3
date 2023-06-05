@@ -451,18 +451,7 @@ color: var(--main-text-color);
     justify-content: center;
     margin-bottom: 72px;
 }
-.portfolio-img-item {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 72px;
-    gap: 24px;
-}
-.portfolio-advantages {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-} 
+
 
 
 
