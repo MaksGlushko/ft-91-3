@@ -433,7 +433,10 @@ color: var(--main-text-color);
 .advantages-btn:hover,.advantages-btn:focus {
     border: 1px solid transparent;
 }
-
+.advantages {
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
 
 
 
