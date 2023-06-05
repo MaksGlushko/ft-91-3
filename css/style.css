@@ -440,6 +440,7 @@ color: var(--main-text-color);
 .advantages {
     padding-top: 96px; 
     padding-bottom: 120px;
+    border-radius: 4px;
 }
 .portfolio-img {
     display: flex;
@@ -455,11 +456,12 @@ color: var(--main-text-color);
     gap: 24px;
     border-radius: 4px;
 }
-.btn-upport {
+.app-upport {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
-
-
 
 
 
