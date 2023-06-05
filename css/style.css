@@ -73,7 +73,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
-
+}
+.header-text-link {
+    padding: 24px 0;
 }
 .header-menu {
     display: flex;
@@ -202,9 +204,6 @@ padding-top: 120px;
 .benefists-list {
     display: flex;
     gap: 24px;
-}
-.benefists.item {
-    width: calc((100% - 72px) / 4);
 }
 .visually-hidden { 
     position: absolute; 
