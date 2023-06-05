@@ -49,6 +49,8 @@ ul{
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
+    padding: 0 15px;
     
 }
 .header-logo {
@@ -108,7 +110,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
-color: var(--main-text-color)
+color: var(--main-text-color);
+width: 153px;
+height: 24px;
 }
 .header-soc-item {
     text-decoration: none;
@@ -133,16 +137,18 @@ font-style: normal;
 }
 .header-address {
     display: flex;
-    margin-left: 40px;
+    gap: 40px;
+    padding: 24px 0;
     
 }
 /* --------------HERO-------------- */
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .hero-container {
     padding: 191px,472px,472px,185px;
-    padding: 188px 0;
+
 }
 .hero-title {
     font-weight: 700;
@@ -151,8 +157,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--color-white);
-width: 1440px;
-height: 600px;
+max-width: 496px;
 }
 .hero-btn {
     width: 169px;
@@ -167,6 +172,8 @@ height: 600px;
     cursor: pointer;
     border-radius: 4px;
     border:none;
+    display: block;
+    min-width: 169px;
 }
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404BBF;
