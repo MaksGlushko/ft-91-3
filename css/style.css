@@ -235,6 +235,11 @@ color: var(--main-text-color);
 margin-bottom: 8px;
 padding: 120px 0;
 }
+.benefists-item {
+    display: flex;
+    width: calc((100% - 72px) / 4);
+
+}
 .team-person {
     padding: 32px 16px;
     text-align: center;
@@ -315,6 +320,9 @@ text-align: center;
 background-color: var(--color-white);
 }
 /* --------------FOOTER-------------- */
+.footer-container {
+    padding: 100px 0;
+}
 .web-background {
     background-color: #2e2f42;
 }
@@ -326,6 +334,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+display: inline-block;
+margin-bottom: 16px;
 }
 .web-title span {
     font-weight: 800;
@@ -341,6 +351,7 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+max-width: 264px;
 }
 
 /* --------------PORTFOLIO-------------- */
