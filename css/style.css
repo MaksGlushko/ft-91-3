@@ -320,11 +320,9 @@ text-align: center;
 background-color: var(--color-white);
 }
 /* --------------FOOTER-------------- */
-.footer-container {
-    padding: 100px 0;
-}
 .web-background {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .web-title {
 font-family: "Raleway", sans-serif;
@@ -404,7 +402,12 @@ color: var(--main-text-color);
     letter-spacing: 0.02em;
     color: var(--title-color); 
 }
-
+.containers {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 
 
