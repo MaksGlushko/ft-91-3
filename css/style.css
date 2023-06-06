@@ -468,7 +468,9 @@ color: var(--main-text-color);
     border-top: none;
 }
 
-
+.portfolio-img-item {
+    width: calc((100% - 48px) / 3);
+}
 
 
 
