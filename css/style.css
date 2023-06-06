@@ -366,6 +366,7 @@ color: var(--color-two);
 background-color: var(--second-text-color);
 border: 1px solid #e7e9fc;
 padding: 12px 24px;
+border-radius: 4px;
 
 
 }
@@ -459,6 +460,12 @@ color: var(--main-text-color);
     padding: 32px 16px;
 }
 
+.picture-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    margin-bottom: 8px;
+    border-top: none;
+}
 
 
 
