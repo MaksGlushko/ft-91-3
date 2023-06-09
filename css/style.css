@@ -46,6 +46,7 @@ ul{
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
     display: flex;
@@ -76,15 +77,26 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 }
-.header-text-link {
+.header-text-link ::after {
     padding: 24px 0;
     position: relative;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
 }
 .header-menu {
     display: flex;
     margin-left: 76px;
     gap: 40px;
     padding: 24px 0;
+    position: relative; 
+    color: #404bbf;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .header-soc {
@@ -99,6 +111,7 @@ color: var(--title-color);
     flex-grow: 1;
     margin-right: 76px;
     padding: 24px 0;
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .header-menu {
@@ -195,6 +208,8 @@ padding-top: 120px;
     border:none;
     display: block;
     min-width: 169px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404BBF;
