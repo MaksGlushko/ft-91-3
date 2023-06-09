@@ -50,8 +50,10 @@ ul{
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
-    padding: 0 15px;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
     
     
 }
@@ -76,6 +78,7 @@ color: var(--title-color);
 }
 .header-text-link {
     padding: 24px 0;
+    position: relative;
 }
 .header-menu {
     display: flex;
@@ -322,6 +325,7 @@ text-align: center;
 background-color: var(--color-white);
 padding: 24px 0; 
 display: block;
+margin-bottom: 8px;
 }
 /* --------------FOOTER-------------- */
 .web-background {
