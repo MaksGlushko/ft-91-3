@@ -38,7 +38,6 @@ ul{
     padding-left: 72px;
     padding-right: 72px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 /* --------------HEADER-------------- */
 
@@ -77,26 +76,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 }
-.header-text-link ::after {
+.header-text-link {
     padding: 24px 0;
     position: relative;
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-
 }
 .header-menu {
     display: flex;
     margin-left: 76px;
     gap: 40px;
     padding: 24px 0;
-    position: relative; 
-    color: #404bbf;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .header-soc {
@@ -177,6 +165,11 @@ font-style: normal;
 .hero {
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg); 
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
 }
 .hero-title {
     font-weight: 700;
@@ -210,6 +203,7 @@ padding-top: 120px;
     min-width: 169px;
     margin-right: auto;
     margin-left: auto;
+    transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404BBF;
