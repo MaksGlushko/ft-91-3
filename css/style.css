@@ -283,6 +283,7 @@ width: calc((100% - 48px) / 3);
 .team-list {
     display: flex;
     gap: 24px;
+    
 }
 .team-title {
     font-weight: 700;
@@ -308,6 +309,7 @@ color: #2E2F42;
 background-color: #FFFFFF;
 text-align: center;
 margin-bottom: 8px;
+padding: 0 15px;
 }
 
 .team-item-text {
@@ -318,6 +320,8 @@ letter-spacing: 0.02em;
 color: #434455;
 text-align: center;
 background-color: var(--color-white);
+padding: 24px 0; 
+display: block;
 }
 /* --------------FOOTER-------------- */
 .web-background {
