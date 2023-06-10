@@ -312,13 +312,20 @@ width: calc((100% - 48px) / 3);
 .team-list {
     display: flex;
     gap: 24px;
-    justify-content: center;   
+    justify-content: center;  
 }
 .soc-icons {
     display: flex;
     gap: 24px;
     justify-content: center;  
- 
+}
+.soc-icon-team {
+    fill: #F4F4FD;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-two);
+    border-radius: 50%; 
+    gap: 24px;
 }
 .sending {
     width: 100%;
