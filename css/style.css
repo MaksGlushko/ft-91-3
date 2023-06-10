@@ -66,6 +66,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-two);
 margin-right: 76px;
+position: relative;
+    color: #404bbf;
 
 }
 .header-logo span {
@@ -78,16 +80,14 @@ color: var(--title-color);
 }
 .header-text-link::after {
     padding: 24px 0;
-    position: relative;
-    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
-    height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    height: 4px;
 }
 .header-menu {
     display: flex;
@@ -189,10 +189,8 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--color-white);
 max-width: 496px;
-text-align: center;
 margin-right: auto;
 margin-left: auto;
-padding-bottom: 48px;
 padding-bottom: 120px;
 padding-top: 120px;
 }
@@ -238,6 +236,15 @@ padding-top: 120px;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden; 
+}
+.icons-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 .benefists-subtitle {
     font-weight: 500;
