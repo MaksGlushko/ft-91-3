@@ -423,7 +423,26 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 max-width: 264px;
 }
-
+/* --------------СOSTOMERS-------------- */
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.logo-customers {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+margin-bottom: 72px;
+}
+.customers-list {
+    
+}
 /* --------------PORTFOLIO-------------- */
 
 /* --------------header-PORTFOLIO-------------- */
