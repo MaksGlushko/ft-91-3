@@ -396,6 +396,7 @@ margin-bottom: 8px;
     background-color: #2e2f42;
     padding: 100px 0;
 }
+
 .web-title {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -422,6 +423,20 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 max-width: 264px;
+}
+.web-logo {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+.prf-web {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+
 }
 /* --------------СOSTOMERS-------------- */
 .customers {
