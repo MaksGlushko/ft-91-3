@@ -326,6 +326,7 @@ width: calc((100% - 48px) / 3);
     background-color: var(--color-two);
     border-radius: 50%; 
     gap: 24px;
+
 }
 .sending {
     width: 100%;
@@ -346,7 +347,6 @@ width: calc((100% - 48px) / 3);
     height: 40px;
     background-color: var(--color-two);
     border-radius: 50%; 
-
 }
 
 .team-title {
@@ -443,8 +443,13 @@ margin-bottom: 72px;
 .customers-list {
     display: flex;
     gap: 24px;
+    
 }
 .customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.customers-sending {
     width :100%;
     height : 100%;
     border: 1px solid #8e8f99;
@@ -453,9 +458,6 @@ margin-bottom: 72px;
     justify-content: center;
     align-items: center;
     color: #8e8f99;
-    width: calc((100% - 120px) / 6);
-    height: 88px;
-
 }
 /* --------------PORTFOLIO-------------- */
 
