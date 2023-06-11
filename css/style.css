@@ -430,15 +430,17 @@ font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-bottom: 16px;
 margin-right: 120px;
 display: flex;
 align-items: baseline;
+margin-bottom: 16px;
 
 }
 .media-web {
     display: flex;
     gap: 16px;
+    width: 40px;
+    height: 40px;
 
 }
 .web-icons {
