@@ -424,7 +424,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 max-width: 264px;
 }
-.web-logo {
+.web-container {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
@@ -438,6 +438,12 @@ color: #FFFFFF;
 margin-bottom: 16px;
 
 }
+.media-web {
+    display: flex;
+    gap: 16px;
+
+}
+
 /* --------------СOSTOMERS-------------- */
 .customers {
     padding-top: 120px;
