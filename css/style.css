@@ -354,6 +354,10 @@ width: calc((100% - 48px) / 3);
 }
 .icons-soc {
     fill: #F4F4FD;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-two);
+    border-radius: 50%; 
 }
 
 .team-title {
