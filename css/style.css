@@ -488,7 +488,7 @@ margin-bottom: 16px;
 .media-web :hover {
     background-color: #31d0aa;
 }
-.media-web :focus {
+.sending-web:focus {
     background-color: #31d0aa;
 }
 /* --------------СOSTOMERS-------------- */
@@ -742,7 +742,9 @@ color: var(--main-text-color);
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-
+.link {
+    display: block;
+}
 .picture-text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
