@@ -81,6 +81,8 @@ color: var(--title-color);
 }
 .header-text-link {
     position: relative;
+    padding: 24px 0;
+    display: block;
 }
 .current {
     color: #404BBF;
@@ -699,7 +701,7 @@ color: var(--main-text-color);
 }
 .stylish-text :hover
 .stylish-text :focus {
-    transform: translateY(0%);
+    transform: translateY(0%); 
 }
 .text-container {
     position: relative;
