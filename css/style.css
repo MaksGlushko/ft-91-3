@@ -79,17 +79,18 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 }
-.header-text-link {
+.header-title-item {
     color:#404bbf;
+    position: relative;
 }
 .current {
     color: #404BBF;
 }
 .current::after {
-    padding: 24px 0;
+    display: block;
     position: absolute;
-    left: 0;
-    bottom: -1px;
+    content: '';
+    width: 100%;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
