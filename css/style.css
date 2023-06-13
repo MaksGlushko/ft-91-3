@@ -81,16 +81,16 @@ color: var(--title-color);
 }
 .header-text-link::after {
     padding: 24px 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
-    border-radius: 2px;
-    
-    
+    border-radius: 2px;   
+}
+.header-title-item {
+    transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu {
     display: flex;
@@ -111,12 +111,13 @@ color: var(--title-color);
 .header-navigation {
     display: flex;
     align-items: center;
+    position: relative;
     flex-grow: 1;
     margin-right: 76px;
     padding: 24px 0;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
-    position: relative;
+    
 }
 .header-menu {
     font-family: 'Roboto';
@@ -149,6 +150,7 @@ width: 153px;
 height: 24px;
 padding: 24px 0;
 gap: 40px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-soc-item {
     text-decoration: none;
