@@ -466,6 +466,7 @@ margin-bottom: 16px;
     align-items: center;
     width: 40px;
     height: 40px;
+    transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-icon-team :hover, .soc-icon-team :focus {
     background-color: #404bbf;
@@ -639,7 +640,7 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
-.portfolio-img 
+
 .portfolio-item {
     text-decoration: none;
 }
@@ -750,7 +751,6 @@ color: var(--main-text-color);
 .portfolio-img-item {
     width: calc((100% - 48px) / 3);
 }
-
 
 
 
