@@ -80,8 +80,8 @@ text-transform: uppercase;
 color: var(--title-color);
 }
 .header-title-item {
-    color:#404bbf;
     position: relative;
+    color:#404bbf;
 }
 .current {
     color: #404BBF;
@@ -94,12 +94,14 @@ color: var(--title-color);
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    bottom: -1px;
 }
 .header-menu {
     display: flex;
     margin-left: 76px;
     gap: 40px;
     padding: 24px 0;
+
 }
 .header-soc {
     display: flex;
@@ -116,7 +118,6 @@ color: var(--title-color);
     margin-right: 76px;
     padding: 24px 0;
     color: #404bbf;
-    
 }
 .header-menu {
     font-family: 'Roboto';
@@ -355,10 +356,7 @@ width: calc((100% - 48px) / 3);
 }
 .icons-soc {
     fill: #F4F4FD;
-    width: 40px;
-    height: 40px;
-    background-color: var(--color-two);
-    border-radius: 50%; 
+
 }
 
 .team-title {
