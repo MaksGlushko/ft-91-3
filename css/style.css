@@ -527,11 +527,11 @@ margin-bottom: 72px;
     align-items: center;
     color: #8e8f99;
 }
-.customers-list :hover {
+.customers-sending:hover {
     border-color: #404bbf;
     color: #404BBF;
 }
-.customers-sending :focus {
+.customers-sending:focus {
     border-color: #404bbf;
     color: #404BBF;
 }
@@ -700,8 +700,8 @@ color: var(--main-text-color);
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.stylish-text :hover
-.stylish-text :focus {
+.link.stylish-text:hover 
+.link.stylish-text:focus{
     transform: translateY(0%); 
 }
 .text-container {
