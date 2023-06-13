@@ -55,8 +55,8 @@ ul{
     left: 0px;
     top: 0px;  
 }
-.header-soc-item {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.header-text-link {
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-logo {
 font-family: "Raleway", sans-serif;
@@ -79,7 +79,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 }
-.header-text-link::after {
+.header-title-item ::after {
     padding: 24px 0;
     content: '';
     position: absolute;
@@ -87,17 +87,13 @@ color: var(--title-color);
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
-    border-radius: 2px;   
-}
-.header-title-item {
-    transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
 }
 .header-menu {
     display: flex;
     margin-left: 76px;
     gap: 40px;
     padding: 24px 0;
-    transition :color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -115,7 +111,6 @@ color: var(--title-color);
     flex-grow: 1;
     margin-right: 76px;
     padding: 24px 0;
-    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
     
 }
@@ -453,7 +448,7 @@ margin-bottom: 16px;
     gap: 16px;
     width: 40px;
     height: 40px;
-    transition :background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .sending-web {
     width: 100%;
@@ -470,7 +465,7 @@ margin-bottom: 16px;
     background-color: #404bbf;
 }
 .web-icons {
-    transition : background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition : 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons {
     fill: #F4F4FD;
@@ -482,7 +477,7 @@ margin-bottom: 16px;
 .web-defs {
     margin-right: 120px;
 }
-.media-web :hover,.media-web :focus {
+.media-web :is :hover :focus {
     background-color: #31d0aa;
 }
 /* --------------СOSTOMERS-------------- */
