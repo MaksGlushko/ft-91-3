@@ -79,7 +79,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
 }
-.header-text-link::after {
+.header-title-item {
+    color: #404bbf;
+    position: relative;
+}
+.header-text-link link::after {
     padding: 24px 0;
     content: '';
     position: absolute;
@@ -94,8 +98,6 @@ color: var(--title-color);
     margin-left: 76px;
     gap: 40px;
     padding: 24px 0;
-
-
 }
 .header-soc {
     display: flex;
@@ -324,7 +326,8 @@ width: calc((100% - 48px) / 3);
     gap: 24px;
     justify-content: center;  
 }
-.sending :hover, .sending:focus {
+.sending :hover
+.sending:focus {
     background-color: #404bbf;
 }
 .soc-icon-team {
@@ -351,10 +354,6 @@ width: calc((100% - 48px) / 3);
 }
 .icons-soc {
     fill: #F4F4FD;
-    width: 40px;
-    height: 40px;
-    background-color: var(--color-two);
-    border-radius: 50%; 
 }
 
 .team-title {
