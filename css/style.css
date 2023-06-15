@@ -732,7 +732,7 @@ margin-bottom: 72px;
     justify-content: center;
     fill: transparent;  
 }
-.input-checkbox:checked + .modal-privacy > .checkbox-block  {
+.input-checkbox:checked + .modal-privacy > .icon-modal  {
     background-color: #404BBF;
     border: none;
     fill: #FFFFFF;
