@@ -660,16 +660,22 @@ margin-bottom: 72px;
     color: #2E2F42;
     margin-bottom: 16px; 
 }
+.modal-soc-icons {
+    position: absolute;
+}
 .label-modal {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em; 
     color: #8e8f99;
     display: block;
-    margin-bottom: 16px;  
+    margin-bottom: 4px; 
 }
 .modal-item {
-    margin-bottom: 8px;
+    margin-bottom: 24px;
+}
+.modals-item {
+    margin-bottom: 16px;
 }
 .input-container {
     position: relative;
