@@ -732,6 +732,15 @@ margin-bottom: 72px;
     justify-content: center;
     fill: transparent;  
 }
+.input-checkbox:checked + .modal-privacy > .checkbox-block  {
+    background-color: #404BBF;
+    border: none;
+    fill: #FFFFFF;
+}
+.modal-link {
+    color : #4d5ae5;
+    
+}
 /* --------------PORTFOLIO-------------- */
 
 
