@@ -658,7 +658,7 @@ margin-bottom: 72px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 16px;
+    margin-bottom: 16px; 
 }
 .label-modal {
     font-size: 12px;
@@ -666,7 +666,10 @@ margin-bottom: 72px;
     letter-spacing: 0.04em; 
     color: #8e8f99;
     display: block;
-    margin-bottom: 4px;    
+    margin-bottom: 16px;  
+}
+.form-container {
+    margin-bottom: 8px;
 }
 /* --------------PORTFOLIO-------------- */
 
