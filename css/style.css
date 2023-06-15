@@ -738,7 +738,34 @@ margin-bottom: 72px;
     fill: #FFFFFF;
 }
 .modal-link {
-    color : #4d5ae5;
+    color : #4d5ae5;    
+}
+.btn-send {
+display: block;
+min-width: 169px;
+height: 56px;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button {
     
 }
 /* --------------PORTFOLIO-------------- */
