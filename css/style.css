@@ -741,7 +741,7 @@ margin-bottom: 72px;
 .input-checkbox:checked + .modal-privacy > .icon-modal  {
     background-color: #404BBF;
     border: none;
-    fill: #FFFFFF;
+    fill: #F4F4FD;
 }
 .modal-link {
     color : #4d5ae5;    
