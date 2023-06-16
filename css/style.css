@@ -757,9 +757,6 @@ border: none;
 border-radius: 4px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modals-item {
-margin-bottom: 24px;
-}
 .icons-container {
     position: relative;
 }
@@ -768,6 +765,12 @@ margin-bottom: 24px;
 }
 .item-modal-text {
     margin-bottom: 24px;
+}
+.modal-comment {
+    margin-bottom: 16px;
+}
+.icons-modal-input {
+    position: relative;
 }
 /* --------------PORTFOLIO-------------- */
 
