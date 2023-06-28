@@ -3,9 +3,14 @@
       openMenuBtn: document.querySelector("[data-menu-open]"),
       closeMenuBtn: document.querySelector("[data-menu-close]"),
       menu: document.querySelector("[data-menu]"),
+      burger: document.querySelector("open-menu-btn span"),
     };
   
     refs.openMenuBtn.addEventListener("click", toggleMenu);
+    refs.openMenuBtn.addEventListener("click", () => {
+        burger.classList.toggle('show')
+    } );
+
     refs.closeMenuBtn.addEventListener("click", toggleMenu);
   
     function toggleMenu() {

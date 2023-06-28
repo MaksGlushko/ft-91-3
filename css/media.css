@@ -1,7 +1,12 @@
-@media screen and (min-width: 320px) { 
+@media screen and (min-width: 428px) { 
     .container {
-    max-width: 428px;
+    max-width: 426px;
     }
+    .container {
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+}
     .benefists-item {
         max-width: 308px;
     }
@@ -75,7 +80,6 @@
   @media screen and (min-width: 1158px) {
     .container {
       max-width: 1158px;
-      width: calc((100% - 72px) / 4);
     }
   }
 
